@@ -19,11 +19,6 @@ twitter:   https://twitter.com/robokichi41 # Add your Facebook handle
 github:   https://github.com/shirokuma-89
 
 
-# #-------------------------------
-# # Comment Section (Disqus)
-# disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
-
-
 #-------------------------------
 # Instagram Feed
 instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.

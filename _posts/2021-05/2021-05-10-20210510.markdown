@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "BLDC試食会"
+date:   2021-05-10
+image:  031-040/040/top.jpg
+tags:  [BLDC, ロボット制作]
+---
+
+はい、どうもこんばんわあ゛あ゛あ゛ぁぁぁあああああ！しろくま＠胡瓜です。
+
+## 注意
+
+この記事は新しいBLDCを買った白熊が**喜んでウキャウキャしてるだけ**の記事になります。途中より**吐き気などを誘発する可能性**があるためご注意ください。ﾖﾛｼｸﾈ
+
+## BLDCを買ったよ！！
+
+「DCモーターなんか飽きた」という理由でBLDCを注文しました。4月18日にAliExpressで注文したものが5月6日に寮に到着しました。だいぶスムーズに行った方だとは思いますが、AliExpress初めての僕にはすごく長く感じました。お金で時間を買うべきだったかもしれません。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">ｷｬｰ!!ｶﾜｲｲ!!ﾁｯﾁｬｲｺ!! <a href="https://t.co/bBonICHt11">pic.twitter.com/bBonICHt11</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1391294969030209541?ref_src=twsrc%5Etfw">May 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+というわけで今日届いたばっかりの電子天秤で重量を測ってみましょう。
+
+![]({{site.baseurl}}/img/031-040/040/001.jpg)
+
+46.2gでした。とても軽量でいい感じです。参考までに僕たちが今まで使ってきたPololu 25D 20.4:1は88.7gでした。ほぼ半分です。この数値を「Pololu重いくせに制御性良くないからMax○nにしたい！」（一部伏せ字にしております。）って言っていた一年前の自分に見せつけたいぐらいです。
+
+この前3秒ぐらいで雑に設計したオムニホイールとのセットで重量を測ってみました。オムニホイール自体は20.0gです。いわゆる「白熊くんのよわよわ設計」ってやつなので、後から振り返ればもうちょっと軽く設計できたかなって感じです。まぁ、単純に設計に時間をかけなかったのがいけないんですけどですね。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">Very ぐっど😁 <a href="https://t.co/oUYXaaKpKb">pic.twitter.com/oUYXaaKpKb</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1391699028182667270?ref_src=twsrc%5Etfw">May 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+一輪あたり42.8gの軽量化です。これはやばい😱
+
+モーターとホイールをハブなしで直接ネジで締結できるのも地味にいいですね。長年芋ネジ方式を使ってきましたが、ゆるむのなんの…
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">ハブがいらないのが絶妙にありがたい <a href="https://t.co/hqzVG6H1cN">pic.twitter.com/hqzVG6H1cN</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1391304865347903488?ref_src=twsrc%5Etfw">May 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+あれ？何か足りないぞ？（次の章へ続く→）
+
+## でさぁ？性能はどうなん？
+
+今までの画像とかを見てきて気づいたかもしれませんが、何かおかしいですよね？そうです！
+
+**ギヤがないんです！！！**（こじつけ感）
+
+ギヤがないのでモーター本来の出力を効率を落とさずにダイレクトに車輪へ伝えることができます。「トルク大丈夫なん？」と思われたかもしれませんが、僕も実際に手にして動かすまでは本当にギヤなしで車輪を回せるだなんて信じられませんでした。しかし、実際に回してみるとこの不安は吹き飛びました。その時の動画です。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">超静音 <a href="https://t.co/M2Uo93FqGm">pic.twitter.com/M2Uo93FqGm</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1391359778794864641?ref_src=twsrc%5Etfw">May 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">ぶるんぶるん <a href="https://t.co/r6xFfHw9gD">pic.twitter.com/r6xFfHw9gD</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1391361557142007814?ref_src=twsrc%5Etfw">May 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+さっきからやばいやばいとしか言っていませんが、ほんとに**やばいんです**。（伝われ）
+
+静音でギヤがないくせに、超高速回転でトルクも十二分にあって…もうやばい以外の形容詞が当てはまらないぐらいやばいです。ちなみに先程のツイートのBLDCの車輪を床に押さえつけるように負荷をかけるテストと同じことを、同電圧のバッテリー・今まで使ってきたモーターの組み合わせでやったら普通にストールしました。
+
+軸にもベアリングが搭載されていてフラつきも一切ありませんし、ある程度の負荷にもがっしりと耐えてくれます。Pololuくんの軸のスリーブベアリングはもう過労死してたので…
+
+**というわけで、BLDC採用ッッッッツツツツツ！！！！！！**
+
+## 今後の課題
+
+もちろんメリットばっかりではありません。と言ってもモーター自体のデメリットというよりは原因はこちら側にあります。
+
+- そもそもソフトウェア雑魚な白熊が制御し切れるのか？
+- 燃えないESCを自作できるのか？
+- 磁気センサorエンコーダをどうやって設置するのか？
+
+という感じでまだまだ課題はたくさんあります。しかし、これらをクリアすれば確実に自分たちの強力な武器になるかもしれないと信じ、~~もしわかんなかったらTwitterで問い掛ければ誰か教えてもらえるんじゃね？って思いながら~~頑張っていこうと思います。
+
+## 終わりに
+
+半田付けしてBLDCを市販ESCで回しただけなのに、ものすごく進捗を生んだ感じがします。これからにぜひご期待ください。色々コメントとかも待ってます。では、
+
+**僕たちがBLDCで夢を創ります！！！**

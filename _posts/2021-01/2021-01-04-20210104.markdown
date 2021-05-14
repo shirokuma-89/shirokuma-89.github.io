@@ -29,7 +29,7 @@ tags:  [Arduino, VS Code]
 まず、以下のディレクトリにアクセスします。
 
 {% highlight none%}
-%USERPROFILE%\.vscode\extensions
+%USERPROFILE%＼.vscode＼extensions
 {% endhighlight %}
 
 

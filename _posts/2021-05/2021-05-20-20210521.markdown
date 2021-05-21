@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "最近の開発について"
+date:   2021-05-20
+image:  041-050/043/top.jpg
+tags:  [ロボット制作, 雑記]
+---
+
+こんばんは。しろくま＠胡瓜です。今日は1,2,3限が偶然全てテストだったり、CNCの隣に置いてあったサラダ油をこぼしてしまいお気に入りの服がアブラギッシュになってしまったり、自分のミスでエンドミル折ってしまったり…。こんなに運が悪い日ってそうそうないと思います。かなしい(´;ω; `)ﾌﾞﾜｯ
+
+## 概要
+
+最近進捗が半端ないことになっています。ツイート数が以前と比べて激増し、進捗もりもりマンになってます。多分このペースの進捗を一年間続けたら半端ないロボットが出来上がる気がするのですが、モチベ維持が大変なことを例年過去の自分から教わる羽目になってるので今年はそうならないようにどーしましょってことです。
+
+普通に考えて**昼休みに半田付けしてる**って相当な変態ですよね。やば。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">半田付け下手くそすぎて泣きそうですが、今日はもう遅いのでこの辺で作業中断。 <a href="https://t.co/aNAb84AO7f">pic.twitter.com/aNAb84AO7f</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1395378858023522309?ref_src=twsrc%5Etfw">May 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+## #白熊Todo
+
+最近僕のツイートに毎日登場する[#白熊Todo](https://twitter.com/search?q=%23白熊Todo&src=typed_query)ですが、これは「今日やることを公に宣言することで怠けるのを防止する」ためにやってます。「別にお前のやることなんて興味ねーよ」って感じだとは思いますが、一応公開するという取り組みの一環~~と表向きにはとりあえず言っておくことにする~~なのでやらせてもらってます。僕のTwitterなので好きなようにのんびりやらせてもらってます。
+
+ちなみに今日の白熊Todoはこちら。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E7%99%BD%E7%86%8ATodo?src=hash&amp;ref_src=twsrc%5Etfw">#白熊Todo</a><br>・ESCの半田付け終わらせる</p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1395580331986624512?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+うーん、今日は寝れない予感。
+
+## 相方とのミーティング
+
+日水金の夜に相方と十分ほどのミーティングを定期的にやることになりました。お互いのモチベ維持、進捗確認、仕事の割り振りなどを目的としたものです。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">これから週に3回ぐらいショートミーティング（10分程度）を相方とすることになりました。今日第1回をやってみましたがいい感じです。お互いの開発状況や忙しさ、進捗を共有できるので開発の割り振りが効率よくできそうです。 <a href="https://t.co/9J7YASWuPd">pic.twitter.com/9J7YASWuPd</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1393902156843941888?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+もちろん今日もミーティングがあったんですがすごくいい感じです。お互いの顔が見れるっていうのもモチベ維持に確実に繋がっているような気がします。やっぱりチームですからお互いに支え合っていかないとですね。ちなみに今ハジメ君はOpenMVを頑張ってるらしいので、全方位カメラやOpenMVを扱ったことがある方は**是非話しかけて情報提供してもらえると助かります。**
+
+一方そんな真面目に正攻ルートを目指すハジメ君とは裏腹に白熊は現在変な方向に走り出しています。BLDCとか自作ESCとか空冷ファンとかロボット間距離測定とか…明らかにTLのなかで自分が**浮きつつある**なと感じたり感じなかったりしてますが多分**今後さらに悪化する**ので見苦しいかもしれませんがよろしくお願いします。
+
+## 質問コーナー
+
+有名人とかがよくやる善意での質問コーナーやネタ集め目的かと思いきや、自分がどういう人間だと認識されているのかや、どういう記事に需要があるのかないのかの個人的な調査のためにTwitterにて質問を募集させていただきました。協力してくださったみなさんありがとうございます。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">ある程度集まったら記事書くので、「Root41に聞きたいこと」をなんでもいいのでリプかDMで教えてください。Root41に関するものであれば必ずしもロボット本体に関する質問でなくてもOKです。</p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1393905500673114112?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+**調査しておしまい**みたいな最低な~~人~~動物になるつもりはないので以下答えていきます。
+
+### 使っているESC
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">使っているESCを</p>&mdash; 精神病患者 (@x01001001010) <a href="https://twitter.com/x01001001010/status/1393921458108178432?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+HORNET20A2-4S用ってやつです。ただこれはあくまでBLDCの動作確認や試食のために買ったものなのでロボットに搭載予定はありません。
+
+### RCJの魅力と今年のロボットのコンセプト
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">RoboCup juniorの魅力はなんだと思いますか？<br>今年のロボットのコンセプトを教えてください！</p>&mdash; のぞみーん🍮@unknown (@NOZOMI34615683) <a href="https://twitter.com/NOZOMI34615683/status/1394150817859473410?ref_src=twsrc%5Etfw">May 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+RCJの魅力は「ロボットの多様性がすごい」ということだと個人的に思ってます。名前は伏せますが、例えばWR○とかはLEG○で作るという制限があるのでどちらかというとプログラムとかで競うという色が強い（僕もRCJ3年目の時に視野を広げるために実は一回WROを経験してる）のに対して、ロボカップはそれがハードウェアにまで広がってるのが魅力に感じてます。端的に言えばハードウェア好きの僕にはこっちの方が単純に好きだったというだけのことですが笑
+
+ロボカップでは**変態なロボット**が時々登場してくるのでそれも面白いですね。INPUTさんが載せてたファンだったり、Cat-Botさんのメカナムホイールだったり…　そういうのを見るのもとても楽しいです。あと自分がOpenとかではなくLightWeightを続けてる理由にもなりますが、ロボットがビュンビュンとスピード感のある試合をするのも面白いです。
+
+今年のコンセプトは「創造」です。去年のロボットはまぁまぁ強かった~~と勝手に思っている~~んですが、それ以上のものではなかったんですよね。よく言えば「安定した」、悪く言えば「普遍的な」ロボットができあがりました。順当に今年も去年のを改良していくのも悪くないですが**面白くない**と思ったので、白熊の変態度をMAXに引き上げてBLDCの回転数制御だったり空冷だったり、ロボット間距離測定、効果音付きのUIなど今までのRCJでは考えられないような**頭おかしいロボット**を作ってやろうと思ってます。もちろんこんな変態ロボット作ろうとしたところでRCJ界に頼りになる情報なんてほとんどないので、一から研究したり調べたりして創造していこうというのが今年のコンセプトです。（のぞみーんさん、回答文がグダグダになっちゃってごめんなさい…）
+
+### この世界に飛び込んだ経緯と歴史
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">この世界に飛び込んだ経緯や、<br>白熊のRCJサッカーでの歴史など知りたいです。</p>&mdash; ぱんぷきん (@Dx_Pumpkin) <a href="https://twitter.com/Dx_Pumpkin/status/1393920324119322626?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+おじいが正月？盆だったかな？にいきなりTJ3Bを家に送ってきたことが確かRCJを始めたきっかけだったと思います。小学校1年生後期の時だったかな？って感じです。4年ぐらい年上のS先輩と組んで大会に出てみたら、まさかのいきなり全国大会出場で沼に墜ちていきました。もちろん、始めたばっかりの僕の戦力は
+
+$$\lim_{n \to 0}$$
+
+ぐらいだったのですが、まぁ楽しかったのは今も昔も変わりありません。その頃のロボットの画像です。（ツイート当時実は狸吉という名前で活動してましたが、元々適当につけた名前で飽きたので白熊に変えました。）
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">【狸吉の歩み】2014年<br>ロボットを始めた年。S先輩と一緒にチームSTKとして活動。S先輩のおかげで初めての年ながら全国大会（埼玉）に出場しベスト16。とりあえずロボカップジュニアの世界を知った一年でした。（方位センサと超音波センサは載っているものの使い方を知らない。飾り。） <a href="https://t.co/5w1hGwwwVp">pic.twitter.com/5w1hGwwwVp</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1253990753522442240?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+ちなみにこのスレッドに過去のロボットを掲載してあるので僕の歴史に興味があれば見てみてください。
+
+### チーム名の由来
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">名前の由来はなんですか?by Yoshito</p>&mdash; All_outlook (@All_outlook) <a href="https://twitter.com/All_outlook/status/1393919603777040402?ref_src=twsrc%5Etfw">May 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+国道41号線から来ています。僕たちの家の近くに国道41号線が走っていて、お互いの家に行くときも必ずそこを通るのでそういう名前になりました。ここだけ聞くとRoute41になるはずなんですが、せっかくなので数学記号のRoot（√）の方にすることになりました。本来であれば
+
+$$\sqrt{41}$$
+
+にしようかなーって思ったんですが、√みたいな特殊文字入れると大会の運営さんが大変だろうなぁと思ったので、公式にはRootの方で参加しています。なのでロゴとかでは√が使われてたりします。ちなみに、サイエンスワールドで昼ごはん食べながら相方とおしゃべりしてたときにノリで決まりました。
+
+今更感ありますが、他の地域の方など国道41号線の位置がわからないという方もいらっしゃるかもしれないので地図を載せておきます。
+
+![]({{site.baseurl}}/img/041-050/043/001.jpg)
+
+## 基板発注の方法
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">今年初めて基板発注やってみようと思っているので、ポイントなどあったら教えてほしいです！</p>&mdash; Jun (@jun_robot) <a href="https://twitter.com/jun_robot/status/1395694025714192389?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+近いうち（2週間いないぐらい）に基板発注する予定があるのでその時に記事を書きます！その記事を持って回答に代えさせていただきます。この記事で回答できなくて申し訳ありません！
+
+## アイデアの生まれ方
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">こんなことやろうというアイデアは自分でだしてるのか、チームメイトその他が出してるのか、それとも誰かを見てやろうと思ったのかが知りたいです</p>&mdash; タキモト/RootE (@ET_RootE) <a href="https://twitter.com/ET_RootE/status/1395732600707186702?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+これに関しては僕個人の回答にはなってしまいますが、ハードウェアの突拍子もないアイデアは大体自分から生まれることが多いです。相方は優等生なのでちゃんと根拠を持って「こういう部品や機構を載せて欲しい」などと提案してくれますが、僕は直感に任せて見切り発車するタイプなので非常識でクセの強いロボットを作っては毎回相方を困らせています。
+
+そのアイデアはどこから湧いてくるかということなんですが、RCJに限らず広い分野を眺めることが色々と連鎖してロボカップのロボットのアイデアにつながることが多いです。例えば今設計しているロボットの安全システム（異常を検知したときに緊急シャットダウンするとか、電源を色々用意しておくなど）は旅客機の仕組みの本とかを眺めていたときに思いついたものです。もちろん旅客機とは全然次元が違いますが、**アイデアのとっかかり**になっています。他にも公園の遊具丈夫そうだなぁって思って素材なんだろなーって調べてみたらGFRPだったからロボットの素材にGFRPを採用してみたとか、博物館の展示品の固定に装飾性といたずら防止のためにトルクスネジ（星形のネジ）が使われていたのでいいなぁと思って採用してみたとか、意外とロボット、ましてや工業と全然関係ないところからアイデアが来てることも多いです。
+
+あとは過去の大会のRCJJのプレゼンシートを全て読むっていうのも定期的にやります。僕は大会があるごとに全チームのプレゼンシートを撮って保存しておく人なので結構昔のものもあるのですが、何回見返しても新しい発見があったりするんですよね。そこから直接的にロボットに採用することはほとんどないです。しかし、アイデアって0から生まれるものではなく、世の中にあるものの新しい組み合わせ方を見つけるということなので、きっとどこかで役に立っているんだと思います。
+
+## 終わりに
+
+結構な長文となりましたが読んでくださってありがとうございました。質問は24時間365日受け付けているので今後もコメントやリプライ、DMとかで待ってます。ではまたね！

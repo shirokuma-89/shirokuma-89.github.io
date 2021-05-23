@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "BLDC制御の道 -強制転流編-"
+date:   2021-05-23
+image:  041-050/044/top.jpg
+tags:  [BLDC]
+---
+
+はいどうもこんにちは！しろくま＠胡瓜です。
+
+**BLDC動きました！！！！**
+
+## 概要
+
+今までのBLDC記事は既製品ESCをNucleoとかArduinoで制御するというものでした。今回はまじで**自作ESC**でBLDCを回せました！
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">自作ESCで強制転流（120度短形波駆動）できました！！！事故もなく安全に開発できました。やったね😆 <a href="https://t.co/hL1doWA0wx">pic.twitter.com/hL1doWA0wx</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1396092930595516419?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+## BLDCの仕組み
+
+RCJJでBLDCを使ってるチームはほぼいないと思うので、BLDCについて知らない人も多いと思います。詳細な説明は**全て省きます**が、BLDCについて簡単に説明します。
+
+BLDC（ブラシレスDCモーター）を超簡略化して書くとこのような構造になっています。
+
+![]({{site.baseurl}}/img/041-050/044/001.png)
+
+U相、V相、W相という三つの電磁石があり、それらの電磁石は真ん中で結線されています。BLDCに電源線が3本あるのはこのためですね。ここで注意して欲しいのは回転するのは**電磁石ではなく永久磁石**であるということです。ここが大きなDCモーターとの違いになります。
+
+U相からV相に電流を流したとき、U相は永久磁石に対してN極になり、V相は永久磁石に対してS極になります。すると永久磁石は紫色の矢印の方向に回転します。
+
+![]({{site.baseurl}}/img/041-050/044/002.png)
+
+次にU相からW相に電流を流します。U相は永久磁石に対してN極になり、W相は永久磁石に対してS極になります。それに合わせ永久磁石も回転します。
+
+![]({{site.baseurl}}/img/041-050/044/003.png)
+
+さらにつぎはV相からW相に電流を流します。V相は永久磁石に対してN極になり、W相は永久磁石に対してS極になります。それに合わせ永久磁石がさらに回転します。
+
+![]({{site.baseurl}}/img/041-050/044/004.png)
+
+これを繰り返すことでBLDCは回っていきます。この通電方法を**120°通電**と言います。他にもいろいろあるらしいですがここでは取り扱わないことにします。
+
+発展的にはなりますが、120°通電の各相の波形はこのようになっています。
+
+![]({{site.baseurl}}/img/041-050/044/005.png)
+
+## 自作ESC
+
+回路は適当にNch-FETを使って作りました。
+
+![]({{site.baseurl}}/img/041-050/044/006.jpg)
+
+これを3つ用意して格相に接続します。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">ESCの配線終わりました！！！ <a href="https://t.co/j9rCTW2635">pic.twitter.com/j9rCTW2635</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1395918081327697927?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+一気にすっ飛ばしますが出来上がった基板がこちらです。
+
+## 強制転流とは
+
+今さらっと回転方法について説明しましたが、この方式でうまく回転させるには回転軸の角度を知る必要があります。本来回転軸の角度に合わせて転流していく必要があるのです。これをしないと、周りから負荷がかかったとき脱調してうまく回らなくなってしまいます。
+
+しかし、現段階ではそんなセンサを搭載するところまで開発が進んでいないので、動作確認のために強制的に転流してそれっぽく回しています。これを**強制転流**と言います。常に過剰な電力を供給することになるので効率は最悪ですし、振動も大きいので、あくまで**動作確認**です。
+
+## プログラム
+
+今回はArduinoMEGAで動作確認しました。
+
+<script src="https://gist.github.com/shirokuma-89/6529244bca524e68e5202126e9682d4d.js"></script>
+
+プログラムはBLDCの仕組みがわかっている人がみたらお茶の子さいさいだと思います。一つ補足するとしたら、PWM周波数を約31kHzまで引き上げているというところでしょうか。
+
+## 情報公開
+
+今回の回路とソースコードをこちらのリポジトリにすべて公開しておきました
+
+<a href="https://github.com/Root41-Gifu/ESC-Beta" class="Repo"><img src="https://gh-card.dev/repos/Root41-Gifu/ESC-Beta.svg"></a>
+
+MITなので自由に使ってもらって構いませんが、試される際は**自己責任**でお願いします。非常に大電流を扱う関係上、発火や火傷、爆発のリスクを伴うので細心の注意が必要になります。また、僕の持っている情報が必ずしも正しいとは限らないため、試される際は事実確認をしっかりとなさった上で試してください。
+
+僕も今回の開発に当たって寮を燃やさないために以下の安全対策を取りました。
+
+- 通電前にショートがないか確認する
+- 通電前に基板の配線ミスがないか何十にもチェックする
+- バッテリーと回路の間にヒューズを入れる
+- マンガン→Ni-MH→Li-Poの順で実験する
+
+<center><blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">動画ではLi-Poで回していますが、開発の裏側ではマンガン→ニッケル水素→Li-Poの順に実験し、Li-Poで回す前に安全のため何重にも動作試験しました。安全確認と半田付けが大変だった分達成感は半端ないです🎉</p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1396093894710894593?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+大事なことなのでもう一度言います。何度でも言います。
+
+試される際は<font size="6" color="#DD8197"><b>自己責任</b></font>でお願いします。（この文章のためだけに文字をでかくして太字にして赤色にする方法を模索したというのは内緒…）
+
+## 終わりに
+
+今回は強制転流だったので次はセンサあり駆動や正弦波駆動にもチャレンジしてみたいと思います。もし時間があればセンサレス駆動とかもやってみたいです。
+
+では今日はこの辺で。またね！

@@ -24,7 +24,7 @@ tags:  [STM32]
 
 長年の夢です。
 
-<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">もうそろそろ相方に「真面目にやれ」って怒られるんじゃないかって思ったり。 <a href="https://t.co/tqsUtKRGBi">pic.twitter.com/tqsUtKRGBi</a></p>&mdash; しろくま🥒胡瓜:テスト大丈夫? (@robokichi41) <a href="https://twitter.com/robokichi41/status/1398590696798310401?ref_src=twsrc%5Etfw">May 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">もうそろそろ相方に「真面目にやれ」って怒られるんじゃないかって思ったり。 <a href="https://t.co/tqsUtKRGBi">pic.twitter.com/tqsUtKRGBi</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1398590696798310401?ref_src=twsrc%5Etfw">May 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
 **どーせロボ河童ってこういうのが好きなんでしょ？**っていうド偏見をもとにつくってみました。ちなみに現時点ではこの音が鳴る仕組みを搭載予定です。（ステレオスピーカーにするかも…？）
 

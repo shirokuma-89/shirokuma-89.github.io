@@ -98,6 +98,12 @@ Nucleoに載っている青色のボタンを押すと音が流れます！
 
 **実用性は特にないです。**
 
+## 効果音リポジトリ
+
+<a href="https://github.com/Root41-Gifu/SoundEffects" class="Repo"><img src="https://gh-card.dev/repos/Root41-Gifu/SoundEffects.svg"></a>
+
+こちらに効果音のリポジトリを作っておきました。まだほぼないに等しいですが、ロボットのハードウェアが出来上がったら色々追加していこうと思ってます。Logic Pro Xとかで適当にそれっぽいものをサクッと作る予定です。
+
 ## まとめ
 
 - DFR0534っていう安いやつを使えばMP3を簡単に鳴らせる！

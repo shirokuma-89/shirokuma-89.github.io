@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "WWDC 2021"
+date:   2021-06-08
+image:  041-050/047/top.jpg
+tags:  [Apple]
+---
+
+こんばんは！しろくま＠胡瓜です。今日は早起きしたので眠たいよぉ…(´⊙ω⊙`)
+
+## WWDC is 何
+
+要約すうるとAppleが年に一度開いてる、新しいOSだったり機能だったり製品だったりを発表したり、開発者がワイワイして色々なことを学んだりできるお祭りです。
+
+今年は今日の日本時間午前2時に始まりました。まだ見てない方はどうぞ。
+
+<div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/0TD96VTf0Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+ちなみに僕は今日の部活で色々な部品のバリ取りしながら聞いたり、布団で横になりながら流したりしたので、周回を3周以上既に終えています。
+
+## 個人的ハイライト
+
+新機能の解説とかは他のサイトで沢山書かれていると思うので僕の方からは割愛します。その代わりに、ちょっと笑えたりする個人的に面白かったシーンをご紹介。今年は去年のものと比べてユーモアが非常にあふれる講演だったので是非そちらにも注目してみてください。
+
+### 0:04:08 Not cool.
+
+CraigさんのNot cool.が聞こえる場面です。WWDC初見の人にはよくわからないと思いますが、去年のWWDCの時のiPhoneやiPadの着信画面の改善について話していた際に言ってた言葉だと思われます。「かっこよくない」って言いながら、言い方がめちゃくちゃcoolですよね。
+
+### 0:23:30 How cool is that?
+
+ホワイトボードをスキャンしてるシーンですね。あんなにドヤ顔で「かっこいいでしょ？」なんて言われたら心撃ち抜かれそうです。
+
+### 0:41:37 iPadｼｭｯ!
+
+iPadが空から降ってきてCraigさんの手の中に収まるシーンです。登場の方法が最高にクールでいいですね。
+
+### 0:43:31 iPadｼｭｯ!（2回目）
+
+iPadをシュッと上に投げてiPadが天に帰っていくシーンです。ユーモアが溢れていて👍
+
+## 感動した機能
+
+### Universal Control (1:25:07〜)
+
+なんと言ってもこれです！Macの隣にiPadを置くだけで自動的にキーボードやトラックパッドを共有できるようになるというものです。Mac勢の自分にとってはこれは作業効率を究極まで引き上げることができる神機能だと思いました。
+
+### Swift Playground (0:49:43〜)
+
+自分はMacにしてからSwiftという言語に興味を持っていました。それに拍車をかけるような形で今回発表されたのがSwift Playgroudのアップデートです。Xcodeと同じようにSwfitを学ぶことができるほか、自分だけのAppも作ることができてしまうらしいです。よりSwiftが身近に学びやすくなりました。
+
+## Apple vs 財布
+
+戦いはこの日に始まりました。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">@高専生（も含めた全ての人）<br>iPad+Apple Pencilってやっぱり持っておいた方がいいですかね？貯金切り崩して買うのは将来のためにもうーんって感じですが、どうせいつか買うなら今買っても…？とも思ってみたりしてます。メリットとデメリット合わせてリプかDMで教えてください。布教お願いします。</p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1398980095541321731?ref_src=twsrc%5Etfw">May 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+前々からiPadはずっとずっと欲しかったのですが、夏休みとかにアルバイトするなり色々してお金が貯まったら買おうと思ってました。しかしWWDCが近づくにつれてその欲求が二次関数的に膨らんでいき、「iPad欲しいけど将来のための貯金から崩すのは避けたい」という天使と悪魔の囁き状態のままWWDCに突入してしまいました。
+
+WWDCを見る前は天使がギリギリ勝ってました。やっぱりここは貯めるべき。お金が貯まってからiPadを買おう。そうおもってました。しかし、Appleの魅力的な発表によって僕の中の天使はだんだんかき消されていき…。そして遂に、この一言で完全に墜ちました。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">この一言が決定打でした。How cool is that??? <a href="https://t.co/zTQtGqbiBJ">pic.twitter.com/zTQtGqbiBJ</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1402046344286511105?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+**How cool is that?**
+
+いやぁ！かっこ良すぎますね。完全に興奮状態になりました。そしてWWDCのあと、ぽち。あぁ、やってしまった…神様…。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">Dear Apple,<br><br>僕の負けです。対戦ありがとうございました。<a href="https://twitter.com/hashtag/WWDC2021?src=hash&amp;ref_src=twsrc%5Etfw">#WWDC2021</a> <a href="https://t.co/7mJ2LPNyu6">pic.twitter.com/7mJ2LPNyu6</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1401977118246903820?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+ちゃんと頑張って勉強して金額分取り返します💰
+
+## 思い出
+
+僕はちょうど一年前のこの時期にWWDCを人生で初めて見ました。部活動の顧問だったすごく親切な先生に「ねぇ、今度WWDCっていうやつがあって…」みたいに誘われたのがきっかけです。優しい大人に囁かれると、思春期の子供はそれに従いたくなるものです。~~（今思えば深夜2時にあるやつ勧めるとか普通に問題発言だったんじゃ…）~~
+
+このブログ覗きに来るGeekな方々は経験あると思いますが「友達と趣味の話が全くできない」んですよね。昨日のテレビ何見た？とかゲームがなんちゃらかんちゃら…って言われてもわからないですし、自分が友達に「昨日Nucleoで遊んだんだけどまじ楽しかったわ」とか言っても絶対理解してもらえないのもまた知ってます。そんな中、唯一パソコンとか写真撮影とかで趣味が一致したのがこの先生でした。共通の話題を持っているという点では、もしかしたら親よりも話しやすかったまであります。自分の感性や思想の大部分はこの先生に影響を受けてると思います。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/WWDC21?src=hash&amp;ref_src=twsrc%5Etfw">#WWDC21</a> 自分をAppleな人間にした先生もきっとみていたんだろうな。卒業式の日から一回も会ってないけど繋がってる気がする。きっとまたいつか会えると信じて、その時に僕成長を自慢できるように、Appleの製品でひたすら勉強して自分自身を磨こうと思います。ありがとう。 <a href="https://t.co/4swLo3lKkF">pic.twitter.com/4swLo3lKkF</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1401984758372995073?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+早朝だったので常体と敬体が混じって「頭大丈夫？」みたいな文章になってますね。ちなみに去年のWWDCで僕がAppleに引き寄せられて以降、Steve Jobsさんの本を僕に貸してくださったり、MacとiPhoneとかのすごい機能とかを僕にチラ見せしたり等の宗教活動が頻繁に繰り返されるようになり、気づいたらiPhoneとMacbook買ってました。そして今日、iPadまで…ﾄﾞｳｼﾖｳ…
+
+今回買ったiPad Airも含めた自分の持っているApple製品全てを駆使して色々と学んで技能や経験を積んでいきたいと思います。ちゃんと変態になって、いつか成長した姿を見てもらいたいです。がんばるぞ💪
+
+## 最後に
+
+勘違いされがちですが、WWDCはまだ始まったばかりです。色々とこれからセッションが公開されていきます。自分も興味あるやつをかいつまんで色々見てみようと思います。
+
+いわゆる「わるい大人」への階段を着実に上がっていっている気がしなくもないですが、今日はこの辺で。おやすみ世界！
